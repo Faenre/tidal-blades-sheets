@@ -3,7 +3,7 @@
   "title": "Cypher System Custom Sheets",
   "description": "Replaces the default Cypher System PC sheet (created by mrkwnzl) with alternate styles inspired by MCG settings and other generic themes. Now with Tidal Blades!",
   "author": "Faenre",
-  "version": "0.1",
+  "version": "0.2",
   "minimumCoreVersion": "0.8.9",
   "compatibleCoreVersion": "9",
   "system": "cyphersystem",

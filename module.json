@@ -1,9 +1,9 @@
 {
   "name": "cyphersheets",
   "title": "Cypher System Custom Sheets",
-  "description": "Replaces the default Cypher System PC sheet (created by mrkwnzl) with alternate styles inspired by MCG settings and other generic themes.",
-  "author": "gonzaPaEst",
-  "version": "0.3",
+  "description": "Replaces the default Cypher System PC sheet (created by mrkwnzl) with alternate styles inspired by MCG settings and other generic themes. Now with Tidal Blades!",
+  "author": "Faenre",
+  "version": "0.1",
   "minimumCoreVersion": "0.8.9",
   "compatibleCoreVersion": "9",
   "system": "cyphersystem",
@@ -30,7 +30,8 @@
     "styles/unmasked.css",
     "styles/waamh.css",
     "styles/expanded-worlds.css",
-    "styles/config-dialog.css"
+    "styles/config-dialog.css",
+    "styles/tidal-blades.css"
   ],
   "languages": [
     {
@@ -39,7 +40,7 @@
       "path": "languages/en.json"
     }
   ],
-  "url": "https://github.com/gonzaPaEst/cyphersheets",
-  "manifest": "https://raw.githubusercontent.com/gonzaPaEst/cyphersheets/main/module.json",
-  "download": "https://github.com/gonzaPaEst/cyphersheets/releases/latest/download/cyphersheets-main.zip"
+  "url": "https://github.com/Faenre/tidal-blades-sheets",
+  "manifest": "https://raw.githubusercontent.com/Faenre/tidal-blades-sheets/main/module.json",
+  "download": "https://github.com/Faenre/tidal-blades-sheets/releases/latest/download/cyphersheets-main.zip"
 }

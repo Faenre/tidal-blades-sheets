@@ -35,6 +35,7 @@ export class CypherSheets {
         UNMASKED: 'unmasked',
         WAAMH: 'waamh',
         EXPANDED: 'expanded',
+        TIDALBLADES: 'tidalblades',
         ORIGINAL: 'originalsheet'
     }
 
@@ -86,6 +87,10 @@ Hooks.once('init', () => {
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.EXPANDED)) {
         Actors.registerSheet("cypher", PostApocalyptic, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", PostApocalypticAnimated, {types: ['PC'], makeDefault: false});
+    }
+
+    if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.TIDALBLADES)) {
+        Actors.registerSheet("cypher", TidalBlade, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.PREDATION)) {

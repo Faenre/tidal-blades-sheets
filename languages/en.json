@@ -27,6 +27,12 @@
           "4": "Western"
         }
       },
+      "tidal-blades": {
+        "Name": "Tidal Blades PC sheets",
+        "Hint": {
+          "1": "Tidal Blade"
+        }
+      },
       "generic": {
         "Name": "Generic Themes PC sheets",
         "Hint": {

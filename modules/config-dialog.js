@@ -25,6 +25,13 @@ class SettingsForm {
         game.settings.set(CypherSheets.ID, CypherSheets.SETTINGS.EXPANDED, value);
     }
 
+    static getUseTidalBladesSheets(){
+        return game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.TIDALBLADES);
+    }
+    static setUseTidalBladesSheets(value) {
+        game.settings.set(CypherSheets.ID, CypherSheets.SETTINGS.TIDALBLADES, value);
+    }
+
     static getUseGenericThemesSheets(){
         return game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.GENERIC);
     }
@@ -126,6 +133,7 @@ export class CypherSheetsConfigDialog extends FormApplication {
                 useNumeneraSheets: true,
                 useClaimtheSkySheets: true,
                 useExpandedWorldsSheets: true,
+                getUseTidalBladesSheets: true,
                 useGenericThemesSheets: true,
                 useGodforsakenSheets: true,
                 useGodsoftheFallSheets: true,
@@ -143,6 +151,7 @@ export class CypherSheetsConfigDialog extends FormApplication {
                 useNumeneraSheets: SettingsForm.getUseNumeneraSheets(),
                 useClaimtheSkySheets: SettingsForm.getUseClaimtheSkySheets(),
                 useExpandedWorldsSheets: SettingsForm.getUseExpandedWorldsSheets(),
+                useTidalBladesSheets: SettingsForm.getUseTidalBladesSheets(),
                 useGenericThemesSheets: SettingsForm.getUseGenericThemesSheets(),
                 useGodforsakenSheets: SettingsForm.getUseGodforsakenSheets(),
                 useGodsoftheFallSheets: SettingsForm.getUseGodsoftheFallSheets(),
@@ -193,6 +202,7 @@ export class CypherSheetsConfigDialog extends FormApplication {
         SettingsForm.setUseNumeneraSheets(formData.useNumeneraSheets);
         SettingsForm.setUseClaimtheSkySheets(formData.useClaimtheSkySheets);
         SettingsForm.setUseExpandedWorldsSheets(formData.useExpandedWorldsSheets);
+        SettingsForm.setUseTidalBladesSheets(formData.useTidalBladesSheets);
         SettingsForm.setUseGenericThemesSheets(formData.useGenericThemesSheets);
         SettingsForm.setUseGodforsakenSheets(formData.useGodforsakenSheets);
         SettingsForm.setUseGodsoftheFallSheets(formData.useGodsoftheFallSheets);

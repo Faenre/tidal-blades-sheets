@@ -44,6 +44,13 @@
             </div>
 
             <div class="form-group">
+                <input type="checkbox" name="useTidalBladesSheets" id="useTidalBladesSheets" data-dtype="Boolean" {{checked useTidalBladesSheets}}/>
+                <label for="useTidalBladesSheets"> {{localize "CYPHER-SHEETS.settings.tidal-blades.Name"}}</label>
+                <p class="notes"><i class="fas fa-share"></i> <span class="sheet-preview">{{localize "CYPHER-SHEETS.settings.tidal-blades.Hint.3"}}<img class="move-middle" src="../../../modules/cyphersheets/styles/images/config-dialog/sheet-previews/TidalBlades.jpeg" alt="Tidal Blades sheet"></span>
+                </p>
+            </div>
+
+            <div class="form-group">
                 <input type="checkbox" name="usePredationSheets" id="usePredationSheets" data-dtype="Boolean" {{checked usePredationSheets}}/><label for="usePredationSheets">{{localize "CYPHER-SHEETS.settings.predation.Name"}}</label>
                 <p class="notes"><i class="fas fa-share"></i> <span class="sheet-preview">{{localize "CYPHER-SHEETS.settings.predation.Hint.1"}}<img class="move-middle" src="../../../modules/cyphersheets/styles/images/config-dialog/sheet-previews/PredationTRex.jpeg" alt="Predation Tyrannosaurus Rex sheet"></span></p>
             </div>

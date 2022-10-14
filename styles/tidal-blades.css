@@ -1,0 +1,29 @@
+/* tidalblades */
+
+@font-face {
+  font-family: "Thunderman";
+  src: url("./fonts/Thunderman.ttf") format("truetype");
+}
+
+.tidalblades input[name="name"],
+.tidalblades input[name="data.teen.basic.name"] {
+  font: 1.9em "Thunderman";
+  letter-spacing: -2px;
+  height: 35px;
+}
+
+/* tidalblade */
+
+.tidal-blade {
+  background-image: url("./images/tidal-blades/navira-dock.webp");
+  background-position: right;
+  --font-color: #292516;
+  --name-shadow: #574e2d;
+  --hover-shadow: #161a29;
+  --scrollbar-background: #29251680;
+}
+
+.tidal-blade input[name="name"],
+.tidal-blade input[name="data.teen.basic.name"] {
+  text-shadow: 0px 2px 4px var(--name-shadow);
+}

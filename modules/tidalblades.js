@@ -6,7 +6,7 @@ import {CustomCypherSheet} from "./cs-extensions.js";
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
-        template: "modules/cyphersheets/templates/expandedworlds/tidal-blades.html"
+        template: "modules/tidal-blades-sheets/templates/expandedworlds/tidal-blades.html"
       });
     }
   }

@@ -6,6 +6,7 @@ import {GodforsakenArcher, GodforsakenArcherAnimated, GodforsakenCombat, Godfors
 import {MoldvayGreen} from "./generic-themes.js";
 import {GotFDivineSpark, GotFDivineSparkAnimated, GotFHellmaw, GotFHellmawAnimated} from "./godsofthefall.js";
 import {PostApocalyptic, PostApocalypticAnimated} from "./expanded-worlds.js";
+import {TidalBlade} from "./tidal-blades.js";
 import {ClaimSkySuperheroes, ClaimSkySuperheroesAnimated} from "./claimthesky.js";
 import {PredationTRex, PredationTRexAnimated} from "./predation.js";
 import {TheStrangeAlien, TheStrangeAlienAnimated, TheStrangeRecursion} from "./thestrange.js";

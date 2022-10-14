@@ -42,5 +42,5 @@
   ],
   "url": "https://github.com/Faenre/tidal-blades-sheets",
   "manifest": "https://raw.githubusercontent.com/Faenre/tidal-blades-sheets/main/module.json",
-  "download": "https://github.com/Faenre/tidal-blades-sheets/releases/latest/download/cyphersheets-main.zip"
+  "download": "https://github.com/Faenre/tidal-blades-sheets/archive/refs/heads/main.zip"
 }
